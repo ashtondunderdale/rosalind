@@ -25,7 +25,8 @@ with open("bioinformatics_stronghold/rna_splicing.txt") as file:
 
 for intron in introns:
     dna = dna.replace(intron, "")
-rna = dna.replace("T", "U")
 
+rna = dna.replace("T", "U")
 protein = "".join(genetic_code[rna[i:i+3]] for i in range(0, len(rna), 3) if genetic_code[rna[i:i+3]] != "Stop")
+
 print(protein)
