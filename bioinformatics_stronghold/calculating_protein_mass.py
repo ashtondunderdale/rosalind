@@ -1,5 +1,3 @@
-import math
-
 amino_acid_masses = {
     "A": 71.03711,
     "C": 103.00919,

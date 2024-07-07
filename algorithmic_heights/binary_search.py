@@ -1,4 +1,3 @@
-# Open and read the file
 with open("algorithmic_heights/binary_search.txt", "r") as file:
     lines = file.readlines()
 
